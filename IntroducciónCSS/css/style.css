@@ -1,0 +1,9 @@
+h2{
+    color: white;
+    background: black;
+}
+
+//atribute selector
+a[class]{
+	color:white
+}

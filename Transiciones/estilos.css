@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    border: 10px solid #000;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background: tomato;
+    font-size: 30px;
+    /* transition: transform 1s ease-in-out,
+                background 1s 1s ease-in-out,
+                font-size 1s 2s ease-in; */
+    transition: transform 2s cubic-bezier(1,.01,1,.08);
+    /* transition: all 1s; */
+    /* transition-property:left , transform; */
+    /* all */
+    /* transition-duration: 2s; */
+    /* transition-delay:1s ; */
+    /* transition-timing-function:ease; */
+    /* ease, ease-in, ease-out, ease-in-out, linear */
+}
+
+p{
+    transition: all 1s;
+    color: #fff;
+    text-align: left;
+}
+
+.container:hover .box{
+    /* transform: scale(1.2); */
+    transform: translateX(100%);
+    background: steelblue;
+    font-size: 50px;
+    /* text-align: right; */
+}

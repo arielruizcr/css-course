@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --variable1:#fff;
+    --noUnderline: overline;
+    --size: 90px;
+    --position: to top right;
+    --color: rgb(255, 255, 255);
+    --color1: rgb(33, 132, 172);
+}
+
+body{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-repeat: no-repeat;
+}

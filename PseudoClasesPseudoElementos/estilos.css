@@ -1,0 +1,100 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    background: #000;
+}
+
+:root{
+    background: teal;
+} */
+
+body{
+    font-family: "Arial";
+}
+
+/* .enlace{
+    background: steelblue;
+    color: #fff;
+    display:block;
+    margin: 20px auto;
+    padding: 20px 0;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+} */
+
+/* .enlace:hover{
+    background: red;
+}
+
+.enlace:active{
+    background: darkblue;
+} */
+
+/* #numero1:target{
+    background: red;
+    color:#fff;
+}
+
+
+#numero2:target{
+    background: blue;
+    color: #fff;
+} */
+/* 
+input{
+    display: block;
+    padding: 30px 5px;
+    margin: 80px;
+} */
+
+/* input:focus{
+    outline-color: darkblue;
+    outline-style: dashed;
+} */
+
+
+/* p:nth-of-type(2n){
+    background: blue;
+} */
+/* p:nth-child(2){
+    background: steelblue;
+    color: #fff;
+} */
+
+
+div{
+    background: tomato;
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 0.1px;
+}
+
+div::before{
+    content: '';
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin-top: 30px;
+    padding: 50px;
+    margin-left: 20px;
+}
+
+div::after{
+    content : '';
+    background: steelblue;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+    top: -90px;
+    left: 200px;
+}
+

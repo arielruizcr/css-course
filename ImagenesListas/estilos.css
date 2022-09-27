@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+/* ul, ol{
+    list-style: none;
+}
+
+li{
+    list-style-image:url("img/check-circle-solid-24.png") ;
+    list-style: decimal-leading-zero;
+    font-size: 24px;
+} */
+
+section{
+    font-size: 0;
+    background: #f2f2f2;
+}
+
+.img{
+    font-size: 0;
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    vertical-align: top;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    box-shadow: 0 0 6px 2px rgba(82, 82, 83, 0.568);
+}

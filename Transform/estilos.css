@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: 620px;
+    margin:20px auto;
+    border:10px solid #000;
+}
+
+
+.item{
+    background: steelblue;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    margin: 40px;
+    /* transform:rotate(180deg) translate(100%, 100%) ; */
+}

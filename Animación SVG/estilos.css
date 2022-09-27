@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+svg{
+    width: 400px;
+    display: block;
+    margin: 60px auto;
+}
+
+#barra1{
+    animation: barra1 2s infinite alternate;
+    transform-origin: bottom center;
+    transform-box:fill-box;
+}
+#barra2{
+    animation: barra2 2s infinite alternate;
+    transform-origin: bottom center;
+    transform-box:fill-box;
+}
+#barra3{
+    animation: barra3 2s infinite alternate;
+    transform-origin: bottom center;
+    transform-box:fill-box;
+}
+
+@keyframes barra1{
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(0.7);
+    }
+}
+@keyframes barra2{
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(0.6);
+    }
+}
+@keyframes barra3{
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(0.5);
+    }
+}
